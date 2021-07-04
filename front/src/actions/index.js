@@ -7,7 +7,7 @@ export function getParkingLots(location) {
       dispatch({ type: LOADING, payload: true });
       return axios({
         method: 'get',
-        url: `http://localhost:3001/parkinglots/${encodedLocation}`,
+        url: `/parkinglots/${encodedLocation}`,
         })
         .then(response => response.data)
         .then((data) => {

@@ -34,6 +34,6 @@ server.use((err, req, res, next) => { // eslint-disable-line no-unused-vars
 
 
 //server start
-server.listen(3001, () => {
+server.listen(process.env.PORT, () => {
     console.log(`Server on Port 3001`)
 })
