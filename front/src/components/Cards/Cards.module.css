@@ -1,14 +1,14 @@
 .container {
-    display: flex;
-	justify-content: space-around;
-	align-items: stretch;
-	flex-wrap: wrap;
-
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 80%;
 }
 
-.cards {
+/* .cards {
     display: grid;
     grid-gap: 2%;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(1, auto);
     position: relative;
-}
+} */

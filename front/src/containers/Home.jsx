@@ -2,6 +2,7 @@ import React, {useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { getParkingLots } from '../actions';
 import Cards from '../components/Cards/Cards';
+import Loading from '../components/Loading/Loading'
 
 export default function Home() {
     const dispatch = useDispatch();
@@ -16,7 +17,7 @@ export default function Home() {
     return (
       <div>
         {loading ? (
-            <div>loading</div>
+            <Loading />
           ) : (
         <Cards parkingLots={parkingLots} />
           )}
