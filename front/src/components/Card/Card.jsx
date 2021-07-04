@@ -1,6 +1,7 @@
 import React from "react";
 // import Stars from '../Stars/Stars'
 import s from './Card.module.css'
+import Stars from "../Stars/Stars";
 
 const defaultImageUrl = 'https://image.freepik.com/free-vector/parking-lot-isometric-composition_1284-20056.jpg';
 export default function Card({ pL }) {
@@ -19,6 +20,7 @@ export default function Card({ pL }) {
                     <div className={s.price}>
                       <h3>{pL.phone}</h3>
                     </div>
+                    <Stars score={pL.score} />
                     <div>{pL.score.toFixed(2)}</div>
                     {/* <div className={s.details}>
                       <div className={s.icons}>
