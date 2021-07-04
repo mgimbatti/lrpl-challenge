@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from '../components/Card/Card'
+import Card from '../Card/Card'
 // import NotFound from '../components/NotFound';
 import s from './Cards.module.css'
 
