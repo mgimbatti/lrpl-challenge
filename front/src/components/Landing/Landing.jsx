@@ -7,7 +7,7 @@ function Landing() {
       <div className={s.ctn}>
       <div className={s.tctn}></div>
         <div className={s.title}>
-            <h1>Search for the Lowest Rated Parking Lots</h1>
+            <h1>Find the Lowest Rated Parking Lots</h1>
         </div>
         </div>
     </div>
