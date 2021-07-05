@@ -6,6 +6,8 @@
   border-radius: 20px;
   box-shadow: 2px 2px 7px 7px #00000027;
   margin: 5% 0;
+  height: 14em;
+  width: 50em;
 }
 .imgCtn {
   display: flex;
@@ -19,7 +21,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 18em;
+  width: 15em;
   height: 14em;
   border: none;
   border-radius: 19px 0 0 19px;
@@ -29,7 +31,7 @@
   display: flex;
   font-family: 'Poppins', sans-serif;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: flex-start;
   width: 65%;
   border-radius: 0 20px 20px 0;
@@ -39,9 +41,18 @@
 .propTitle {
   display: flex;
   width: 90%;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin: 3% 3% 0 3%;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 0 0 3%;
+}
+
+.title a:link {
+  text-decoration: none;
+}
+
+.title a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--blue);
 }
 
 .propTitle .title h3{
@@ -53,6 +64,7 @@
   margin-left: 0.5em;
   color: goldenrod;
 }
+
 .views {
   color: gray;
 }
@@ -63,12 +75,30 @@
 .general {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-items: flex-start;
   margin: 0 3%;
 }
 
-.general .price h3 {
+.iconDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating{
+  margin: 0 7px;  
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+  margin-left: 200px;
+  color: grey;
+}
+.general .phone h3 {
   color: var(--light-blue);
 }
 
@@ -76,7 +106,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: space-around;
+  justify-content: center;
   height: 6em;
   width: 100%;
 }
@@ -88,8 +118,8 @@
 .details .icons {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 .details .icons .icon{

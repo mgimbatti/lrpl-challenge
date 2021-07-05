@@ -3,12 +3,6 @@
         align-items: flex-start;
         justify-content: flex-start;
         flex-direction: column;
-        width: 80%;
+        width: 100%;
 }
 
-/* .cards {
-    display: grid;
-    grid-gap: 2%;
-    grid-template-columns: repeat(1, auto);
-    position: relative;
-} */
